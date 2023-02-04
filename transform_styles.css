@@ -1,0 +1,36 @@
+#box1 {
+    border: 4px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 250px;
+    text-align: center;
+    background: lightpink;
+
+    transform: translateX(50px);
+    transform: translateY(50px);
+    transform: translate(50px, 50px);
+    transform: rotateX(180);
+    transform: rotateY(180);
+    transform: rotateZ(180);
+    transform: scaleX(3);
+    transform: scaleY(3);
+    transform: scale(2, 2);
+    transform: skewX(45deg);
+    transform: skewY(45deg);
+    transform: skew(20deg, 20deg);
+
+    /* transform: matrix(0, 1, 1, 0, 1, 0); */
+
+    /* 
+
+        matrix combines the following:
+        
+        scaleX() 
+        skewY()
+        skewX()
+        scaleY()
+        translateX()
+        translateY()
+        
+    */
+}
